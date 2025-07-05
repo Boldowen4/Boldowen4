@@ -7,7 +7,7 @@ canvas.height = window.innerHeight;
 
 let confetti = [];
 
-for (let i = 0; i < 150; i++) {
+for (let i = 0; i < 70; i++) {
   confetti.push({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height - canvas.height,
