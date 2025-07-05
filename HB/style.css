@@ -121,6 +121,20 @@ body {
     transform: translateY(0);
   }
 }
+@media screen and (max-width: 1000px) and (min-height: 2000px) {
+  #cake {
+    transform: scale(2); /* илүү томруулж гаргах */
+    margin-top: -2em; /* хэт доош унахгүйгээр төвлөрүүлэх */
+  }
+
+  .text h1 {
+    font-size: 2em; /* текст томсгох */
+  }
+
+  .text p {
+    font-size: 1.5em;
+  }
+}
 .text {
   color: #d1d1d1;
   font-family: "Lato", sans-serif;
